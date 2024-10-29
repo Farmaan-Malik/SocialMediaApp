@@ -2,18 +2,13 @@
 import React from 'react';
 import {SafeAreaView, Text, View} from 'react-native';
 import { getFontFamily } from './assets/fonts/helper';
+import Title from './assets/fonts/components/title/title';
 
 const App = () => {
   return (
     <SafeAreaView>
       <View style={{ width: '100%', height: 300,flexDirection:'column'}}>
-        <Text style={{fontSize: 90, fontFamily: getFontFamily('Tiny5')}}>
-          Hello World 3
-        </Text>
-        <Text style={{fontFamily: 'Tiny5-Regular', fontSize: 50}}>
-          Hello World Tiny
-        </Text>
-        <Text style={{fontSize: 50}}>Hello World 2</Text>
+        <Title title="Let's Explore"/>
       </View>
     </SafeAreaView>
   );
