@@ -1,8 +1,7 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import {SafeAreaView, Text, View} from 'react-native';
-import { getFontFamily } from './assets/fonts/helper';
-import Title from './assets/fonts/components/title/title';
+import {SafeAreaView, View} from 'react-native';
+import Title from './components/title/title';
 
 const App = () => {
   return (

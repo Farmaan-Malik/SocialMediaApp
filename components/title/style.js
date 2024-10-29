@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { getFontFamily } from "../../helper";
+import { getFontFamily } from "../../assets/fonts/helper";
 
 const style = StyleSheet.create({
     title: {color:'#022150',
