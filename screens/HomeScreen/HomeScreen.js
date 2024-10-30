@@ -222,6 +222,7 @@ const HomeScreen = () => {
                 comments={item.comments}
                 bookmarks={item.bookmarks}
               />
+              
             );
           }}
         />
